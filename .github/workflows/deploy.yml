@@ -9,6 +9,6 @@ jobs:
     - id: Build-Vue
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
-        username: ${{ github.actor }}
+        username: ${{ github.repository_owner }}
         reponame: 'utube.document'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
